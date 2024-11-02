@@ -1,0 +1,13 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+
+book_name=["Aditya Ranjan Sir Railway Maths | English Medium | 4000...", "Complete Ramban English | Bilingual | The Ultimate Book...", "Class Notes Grammar By Aman Sir | Useful For SSC, Bank,...", "Haunting Adeline + Hunting Adeline (Book 1 & 2 Combo)", "Dead Girl's Diary", "Lucent's General Knowledge With General Knowledge 2024", "My First Picture Library Box Of 10 (Pre-School Books) |...", "Pocket Rocket English Formula Book By Prashant Solanki ...", "O LEVEL FOUR BOOKS SET, REVISED SYLLABUS 2020 (M1R5, M2...", "Railway General Studies 7100 TCS MCQ Chapter-Wise Cover...", "Phychology Of Money Book Rich Dad", "Oswaal NTA CUET (UG) 5 Mock Test Papers Sociology (For ...", "CGL Practice King 3000+ TCS MCQ | Chapter Wise | Gagan ...", "Rich Dad Poor Dad: 25th Anniversary Edit Paperback", "Ishihara Colour Vision Test Book For Color Deficiency 3...", "The Kite Runner+A Thousand Splendid Suns", "Ishihara Colour Vision Test Book For Color Deficiency 3...", "Maths Class 6th Ncert Book", "Static GK (English Version) By Ankit Bhati Sir", "OMR Sheets For Practice UPSC Prelims Latest, 180 MCQs -...", "Concept Of Physics ( 2022-2023 ) Session ( Set Of 2 Vol...", "Pokémon World Championship Trilogy #03: Ash Wins It All...", "BlackBook Of General Awareness March 2024 By Nikhil Gup...", "How To Win Friends And Influence People", "Neetu Singh Volume 1 | English | For All Government Exa...", "Twisted Series :- Twisted Love + Twisted Games + Twiste...", "Twisted Series :- Twisted Love + Twisted Games + Twiste...", "Twisted Series :- Twisted Love + Twisted Games + Twiste...", "Ncert Class 11 & 12 Biology Book New Latest Edition Boo...", "Maths Class 6th Ncert Book", "Vocab Express | 10000+ Words By Santosh Ray For SBI |IB...", "Combo Of Best Sseller Books: Thee Secret + Psycholoogy ...", "How To Win Friends And Influence People", "UPSC Mains Answer Writing Notebook 200 Pages (With Spir...", "To Kill A Mockingbird Harper Lee", "Book Good Vibes Good Life Nice", "Hunting Adeline Vol 1. & 2 Combo", "Aditya Ranjan Sir || SSC CGL MAINS MATHEMATICS || CHAPT...", "Twisted Series :- Twisted Love + Twisted Games + Twiste...", "Rrb General Science Chapterwise Solved Papers 2024"]
+rating=["4.5", "4.6", "4.7", "4.1", "4.4", "4.5", "4.6", "4.3", "4.4", "4.2", "4.5", "4.2", "3.8", "4.3", "3.8", "4.1", "4.3", "4.3", "4.2", "4.5", "4.3", "4.4", "4.1", "4.2", "4.1", "4", "4.1", "4.5", "4.2", "4.3", "4.3", "4.4", "4.4", "4", "4.5", "4.1", "4.3","4.5", "4.1", "4.3"]
+plt.figure(figsize=(10, 12))
+plt.barh(book_name, rating, color='skyblue')
+plt.xlabel('Rating')
+plt.ylabel('Book Name')
+plt.title('Books Rating Graph')
+plt.tight_layout()
+plt.show()
